@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+    
+<hibernate-configuration>
+    <session-factory>        
+        <mapping class="com.dburlacu.model.Conditie" />
+        <mapping class="com.dburlacu.model.Documente" />
+        <mapping class="com.dburlacu.model.Insotitori" />
+        <mapping class="com.dburlacu.model.Localitate" />
+        <mapping class="com.dburlacu.model.Prestator" />
+        <mapping class="com.dburlacu.model.Raion" />
+        <mapping class="com.dburlacu.model.Repartizare" />
+        <mapping class="com.dburlacu.model.Requests" />       
+        <mapping class="com.dburlacu.model.Solicitanti" />
+        <mapping class="com.dburlacu.model.Specificari" />
+                
+        <mapping class="com.dburlacu.model.SubConditie" />
+        <mapping class="com.dburlacu.model.BeneficiarData" />
+        <mapping class="com.dburlacu.model.BeneficiarKey" />
+        <mapping class="com.dburlacu.model.Tichete" />
+        
+    </session-factory>         
+</hibernate-configuration>
